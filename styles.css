@@ -1121,7 +1121,7 @@ background-color: white;
     width: 100px;
   }
   .dowload-info-title {
-
+    line-height: 24px;
     font-size: 18px;
     width: 100%;
     margin: 0;
