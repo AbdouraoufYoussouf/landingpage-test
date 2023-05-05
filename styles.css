@@ -201,10 +201,12 @@ body {
   font-weight: 400;
   font-size: 12x;
   line-height: 24px;
-  
+  display: flex;
+ align-self: center;
   font-family: 'Raleway', sans-serif;
   color: #000000;
   text-align: center;
+  padding: 2px;
 }
 
 
@@ -472,7 +474,7 @@ input[type="checkbox"].checkbox:checked+label::before {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 1067px) {
+@media only screen and (max-width: 1267px) {
   .description {
     height: 950px;
   }
