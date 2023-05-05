@@ -137,14 +137,16 @@ body {
 .star-filled {
   padding: 4px;
   background-color: #00B67A;
-
+  display: flex;
 }
 
 .star-filled-half {
+  display: flex;
   padding: 4px;
   background: linear-gradient(to right, #00B67A 60%, transparent 50%);
 
 }
+
 
 .rating-desc {
   display: flex;
@@ -192,6 +194,17 @@ body {
   color: #000000;
   text-align: center;
   position: relative;
+}
+.desc-bottom-text-mobile {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12x;
+  line-height: 24px;
+  
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+  text-align: center;
 }
 
 
@@ -997,7 +1010,7 @@ background-color: white;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 22px;
 
 }
 
@@ -1058,7 +1071,7 @@ background-color: white;
   }
 
   .dowload-description {
-    gap: 25px;
+    gap: 20px;
 
   }
 
@@ -1070,7 +1083,6 @@ background-color: white;
   }
 
   .dowload-info-text {
-
     font-size: 18px;
     width: 100%;
     margin: 0;
@@ -1128,10 +1140,15 @@ background-color: white;
   }
 
   .dowload-info-text {
+    line-height: 24px;
 
     font-size: 14px;
     width: 100%;
     margin: 0;
+  }
+
+  .dowload-description{
+    gap: 10px;
   }
 }
 
